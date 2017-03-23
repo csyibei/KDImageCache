@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AA53F3031E83B46D00EA399A /* TableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = AA53F3021E83B46D00EA399A /* TableViewCell.m */; };
 		AA86B6FA1E8134D3009C0045 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86B6F91E8134D3009C0045 /* main.m */; };
 		AA86B6FD1E8134D3009C0045 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86B6FC1E8134D3009C0045 /* AppDelegate.m */; };
 		AA86B7001E8134D3009C0045 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AA86B6FF1E8134D3009C0045 /* ViewController.m */; };
@@ -36,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AA53F3011E83B46D00EA399A /* TableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewCell.h; sourceTree = "<group>"; };
+		AA53F3021E83B46D00EA399A /* TableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewCell.m; sourceTree = "<group>"; };
 		AA86B6F51E8134D3009C0045 /* KDImageCache.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KDImageCache.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		AA86B6F91E8134D3009C0045 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		AA86B6FB1E8134D3009C0045 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -108,6 +111,8 @@
 				AA86B6FC1E8134D3009C0045 /* AppDelegate.m */,
 				AA86B6FE1E8134D3009C0045 /* ViewController.h */,
 				AA86B6FF1E8134D3009C0045 /* ViewController.m */,
+				AA53F3011E83B46D00EA399A /* TableViewCell.h */,
+				AA53F3021E83B46D00EA399A /* TableViewCell.m */,
 				AA86B72B1E829F8F009C0045 /* UIImageView+imageCache.h */,
 				AA86B72C1E829F8F009C0045 /* UIImageView+imageCache.m */,
 				AA86B7011E8134D3009C0045 /* Main.storyboard */,
@@ -284,6 +289,7 @@
 				AA86B7001E8134D3009C0045 /* ViewController.m in Sources */,
 				AA86B72D1E829F90009C0045 /* UIImageView+imageCache.m in Sources */,
 				AA86B6FD1E8134D3009C0045 /* AppDelegate.m in Sources */,
+				AA53F3031E83B46D00EA399A /* TableViewCell.m in Sources */,
 				AA86B6FA1E8134D3009C0045 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -520,6 +526,7 @@
 				AA86B7241E8134D3009C0045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA86B7251E8134D3009C0045 /* Build configuration list for PBXNativeTarget "KDImageCacheTests" */ = {
 			isa = XCConfigurationList;
@@ -528,6 +535,7 @@
 				AA86B7271E8134D3009C0045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		AA86B7281E8134D3009C0045 /* Build configuration list for PBXNativeTarget "KDImageCacheUITests" */ = {
 			isa = XCConfigurationList;
@@ -536,6 +544,7 @@
 				AA86B72A1E8134D3009C0045 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

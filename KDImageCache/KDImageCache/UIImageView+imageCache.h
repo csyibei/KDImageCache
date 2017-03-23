@@ -9,6 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface UIImageView (imageCache)
-- (void)kd_setImageWithURL:(NSURL *)url;
-@property (nonatomic,strong) NSDictionary *imageUrlDic;
+- (void)kd_setImageWithURLString:(NSString *)urlString;
+- (void)cleanCache;
 @end
