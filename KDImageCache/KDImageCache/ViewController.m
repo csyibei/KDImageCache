@@ -29,22 +29,22 @@
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
-    return 30;
+    return 1;
 }
 
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath
 {
     TableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:@"cell" forIndexPath:indexPath];
-//    if (indexPath.row % 2) {
-//        [cell.imageView kd_setImageWithURLString:@"http://img.d9soft.com/2016/0412/20160412115102513.jpg"];
-//    }else{
-//        [cell.imageView kd_setImageWithURLString:@"http://img.dgtle.com/forum/201510/28/201430buigz9glmn3i3rxg.jpg"];
-//    }
     if (indexPath.row % 2) {
-        [cell.cellImageView kd_setImageWithURLString:@"http://img.d9soft.com/2016/0412/20160412115102513.jpg"];
+        [cell.imageView kd_setImageWithURLString:@"http://img.d9soft.com/2016/0412/20160412115102513.jpg"];
     }else{
-        [cell.cellImageView kd_setImageWithURLString:@"http://img.dgtle.com/forum/201510/28/201430buigz9glmn3i3rxg.jpg"];
+        [cell.imageView kd_setImageWithURLString:@"http://img.dgtle.com/forum/201510/28/201430buigz9glmn3i3rxg.jpg"];
     }
+//    if (indexPath.row % 2) {
+//        [cell.cellImageView kd_setImageWithURLString:@"http://img.d9soft.com/2016/0412/20160412115102513.jpg"];
+//    }else{
+//        [cell.cellImageView kd_setImageWithURLString:@"http://img.dgtle.com/forum/201510/28/201430buigz9glmn3i3rxg.jpg"];
+//    }
 
     return cell;
 }

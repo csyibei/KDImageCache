@@ -88,9 +88,14 @@ typedef NSOperationQueue KDOperationQueue;
                     [imageData writeToFile:imageCachePath atomically:YES];
                     [[self KDOperationDic] removeObjectForKey:imageName];
                     [[NSOperationQueue mainQueue] addOperationWithBlock:^{
+//                        [self setNeedsLayout];
+//                        [self layoutIfNeeded];
+                        NSLog(@"%@",self);
+                         [self setNeedsLayout];
                         self.image = image;
-                        [self setNeedsLayout];
+//                        [self sizeToFit];
                         [self layoutIfNeeded];
+                        NSLog(@"%@",self);
                     }];
                 }];
                 [[self KDOperationQueue] addOperation:loadImageOperation];
